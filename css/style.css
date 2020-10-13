@@ -282,3 +282,22 @@ aside{
 footer{
 
 }
+
+@media (max-width: 768px) {
+    header{
+        padding: 10px 0;
+    }
+    #menu{
+        max-height: 0;
+        background: white;
+        float: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    #menu li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #ebebe3;
+        margin-right: 0;
+    }
+}
